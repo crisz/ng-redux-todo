@@ -1,0 +1,85 @@
+Arguments: 
+  C:\Program Files\nodejs\node.exe C:\Program Files (x86)\Yarn\bin\yarn.js install
+
+PATH: 
+  C:\Perl64\site\bin;C:\Perl64\bin;C:\ProgramData\Oracle\Java\javapath;C:\Program Files\Java\jdk1.8.0_111\bin;C:\Python27\;C:\Python27\Scripts;C:\Windows\system32;C:\Windows;C:\Windows\system32\wbem;C:\Program Files\Microsoft Network Monitor 3;C:\Program Files (x86)\Livestreamer;C:\Program Files\Git\cmd;C:\Program Files (x86)\Yarn\bin;C:\Program Files\dotnet\;C:\Users\seven\AppData\Local\Programs\Python\Python36-32;C:\Program Files\nodejs;C:\Users\seven\Anaconda3;C:\Users\seven\Anaconda3\Scripts;C:\Users\seven\Anaconda3\Library\bin;C:\Users\seven\AppData\Local\.meteor\;C:\Users\seven\AppData\Local\atom\bin;C:\Program Files (x86)\Microsoft VS Code\bin;C:\Users\seven\AppData\Roaming\npm;C:\Users\seven\AppData\Local\Yarn\.bin;C:\Program Files\Heroku\bin
+
+Yarn version: 
+  0.23.3
+
+Node version: 
+  7.9.0
+
+Platform: 
+  win32 x64
+
+npm manifest: 
+  {
+    "name": "redux-demo",
+    "version": "0.0.0",
+    "license": "MIT",
+    "angular-cli": {},
+    "scripts": {
+      "ng": "ng",
+      "start": "ng serve",
+      "lint": "tslint \"src/**/*.ts\" --project src/tsconfig.json --type-check && tslint \"e2e/**/*.ts\" --project e2e/tsconfig.json --type-check",
+      "test": "ng test",
+      "pree2e": "webdriver-manager update --standalone false --gecko false",
+      "e2e": "protractor"
+    },
+    "private": true,
+    "dependencies": {
+      "@angular/common": "^2.3.1",
+      "@angular/compiler": "^2.3.1",
+      "@angular/core": "^2.3.1",
+      "@angular/forms": "^2.3.1",
+      "@angular/http": "^2.3.1",
+      "@angular/platform-browser": "^2.3.1",
+      "@angular/platform-browser-dynamic": "^2.3.1",
+      "@angular/router": "^3.3.1",
+      "core-js": "^2.4.1",
+      "ng2-redux": "^5.1.2",
+      "redux": "^3.7.1",
+      "rxjs": "^5.0.1",
+      "tassign": "^1.0.0",
+      "ts-helpers": "^1.1.1",
+      "zone.js": "^0.7.2"
+    },
+    "devDependencies": {
+      "@angular/compiler-cli": "^2.3.1",
+      "@types/jasmine": "2.5.38",
+      "@types/node": "^6.0.42",
+      "@angular/cli": "^1.0.0",
+      "codelyzer": "~2.0.0-beta.1",
+      "jasmine-core": "2.5.2",
+      "jasmine-spec-reporter": "2.5.0",
+      "karma": "1.2.0",
+      "karma-chrome-launcher": "^2.0.0",
+      "karma-cli": "^1.0.1",
+      "karma-jasmine": "^1.0.2",
+      "karma-remap-istanbul": "^0.2.1",
+      "protractor": "~4.0.13",
+      "ts-node": "1.2.1",
+      "tslint": "^4.3.0",
+      "typescript": "~2.0.3"
+    }
+  }
+
+yarn manifest: 
+  No manifest
+
+Lockfile: 
+  No lockfile
+
+Trace: 
+  Error: https://registry.yarnpkg.com/rxjs/-/rxjs-5.4.1.tgz: ESOCKETTIMEDOUT
+      at ClientRequest.<anonymous> (C:\Program Files (x86)\Yarn\node_modules\request\request.js:819:19)
+      at Object.onceWrapper (events.js:293:19)
+      at emitNone (events.js:86:13)
+      at ClientRequest.emit (events.js:188:7)
+      at TLSSocket.emitTimeout (_http_client.js:679:10)
+      at Object.onceWrapper (events.js:293:19)
+      at emitNone (events.js:86:13)
+      at TLSSocket.emit (events.js:188:7)
+      at TLSSocket.Socket._onTimeout (net.js:351:8)
+      at ontimeout (timers.js:386:14)
